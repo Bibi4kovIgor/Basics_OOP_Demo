@@ -1,7 +1,5 @@
 package edu.lemon.person;
 
-import edu.lemon.company.Company;
-
 import java.util.Objects;
 
 // Immutable class

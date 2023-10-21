@@ -1,7 +1,5 @@
 package edu.lemon.phone;
 
-import edu.lemon.phone.Phone;
-
 public class WiredPhone extends Phone {
 
     public WiredPhone(String phoneId, int year) {

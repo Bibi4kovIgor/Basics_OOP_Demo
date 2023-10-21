@@ -8,8 +8,8 @@ public class Main {
         Book effectiveProgramming = new Book("Effective Programming", authors);
         effectiveProgramming.print();
         effectiveProgramming.print("Some book of programming", effectiveProgramming);
-
         Printable.printAdditionalInfo();
+        Magazine magazine = new Magazine();
     }
 
 }
