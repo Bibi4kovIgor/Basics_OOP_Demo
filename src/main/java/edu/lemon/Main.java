@@ -79,6 +79,11 @@ public class Main {
         String companyName = "HornsAndHooves";
         Company.getCompanyName(companyName);
 
+        Person[] people = {joe, worker, client, supplier};
+        for (Person person : people) {
+            System.out.println(person);
+        }
+
 
     }
 

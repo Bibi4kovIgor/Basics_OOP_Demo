@@ -5,6 +5,11 @@ import edu.lemon.phone.SmartPhone;
 import edu.lemon.phone.WiredPhone;
 import edu.lemon.phone.WirelessPhone;
 
+import java.lang.management.ManagementFactory;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+
 public class Main {
     public static void main(String[] args) {
         Phone wiredPhone = new WiredPhone("+38077488", 2020);
